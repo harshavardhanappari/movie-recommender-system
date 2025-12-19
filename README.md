@@ -52,12 +52,17 @@ README.md
 pip install -r requirements.txt
 streamlit run app.py
 
+---
 
 🔐 API Key
 This project uses the TMDB API.
+
 Store your API key securely using Streamlit Secrets:
 
-
 TMDB_API_KEY = "your_api_key_here"
+
+---
+
 👤 Author
+
 Mani Harsha Vardhan Appari
