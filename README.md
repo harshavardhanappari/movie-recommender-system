@@ -34,3 +34,26 @@ A content-based movie recommender system built using Machine Learning and deploy
 ---
 
 ## 📂 Project Structure
+app.py
+movies_dict.pkl
+similarity.pkl
+requirements.txt
+README.md
+
+
+---
+
+## ▶️ Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+🔐 API Key
+
+This project uses the TMDB API.
+Store the API key securely using Streamlit Secrets:
+TMDB_API_KEY = "your_api_key_here"
+
+
+👤 Author
+Mani Harsha Vardhan Appari
