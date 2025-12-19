@@ -43,8 +43,7 @@ similarity.pkl
 requirements.txt
 README.md
 
-yaml
-Copy code
+
 
 ---
 
@@ -52,12 +51,13 @@ Copy code
 
 pip install -r requirements.txt
 streamlit run app.py
+
+
 🔐 API Key
 This project uses the TMDB API.
 Store your API key securely using Streamlit Secrets:
 
-toml
-Copy code
+
 TMDB_API_KEY = "your_api_key_here"
 👤 Author
-Harsha
+Mani Harsha Vardhan Appari
